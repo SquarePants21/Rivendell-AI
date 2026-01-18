@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Rivendell AI - AI-Powered Solutions for Modern Businesses. From intelligent automation to advanced analytics, we deliver cutting-edge AI solutions tailored for your needs.">
+    <meta name="keywords" content="AI solutions, machine learning, data analytics, automation, AI consulting">
+    <meta name="author" content="Rivendell AI">
+    <meta property="og:title" content="Rivendell AI - AI Solutions for Business">
+    <meta property="og:description" content="Transforming businesses through intelligent AI solutions, machine learning, and advanced analytics.">
+    <meta property="og:image" content="./assets/og-image.png">
+    <meta property="og:url" content="https://rivendellai.com">
+    <title>Rivendell AI - AI Solutions & Consulting</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="./assets/favicon.png">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <a href="./index.html">
+                        <span class="logo-icon">⚡</span>
+                        <span class="logo-text">Rivendell AI</span>
+                    </a>
+                </div>
+                <div class="nav-menu">
+                    <ul class="nav-links">
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="./pages/portfolio.html">Portfolio</a></li>
+                        <li><a href="./pages/solutions.html">Solutions</a></li>
+                        <li><a href="./pages/packages.html">Packages</a></li>
+                        <li><a href="./pages/contact.html" class="cta-btn">Get Started</a></li>
+                    </ul>
+                </div>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Intelligence-Driven<br>Solutions</h1>
+                <p>We are Rivendell AI, a cutting-edge agency empowering businesses globally with intelligent automation, machine learning, and data-driven insights.</p>
+                <div class="hero-buttons">
+                    <a href="./pages/contact.html" class="btn btn-primary">Start Your Project</a>
+                    <a href="./pages/portfolio.html" class="btn btn-secondary">View Our Work</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="ai-visualization">
+                    <div class="neural-network"></div>
+                </div>
+            </div>
+        </div>
+        <div class="trust-section">
+            <p>Trusted by leading companies</p>
+            <div class="company-logos">
+                <div class="logo-item">TechStart</div>
+                <div class="logo-item">InnovateLabs</div>
+                <div class="logo-item">DataFlow</div>
+                <div class="logo-item">AI-Solutions</div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Services</h2>
+                <p>From concept to deployment, we provide the complete stack of AI solutions.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🤖</div>
+                    <h3>AI & Machine Learning</h3>
+                    <p>Custom ML models and AI systems designed to automate complex processes, predict outcomes, and unlock insights from your data.</p>
+                    <a href="./pages/portfolio.html?filter=ai-ml">Learn More →</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📊</div>
+                    <h3>Data Analytics & BI</h3>
+                    <p>Transform raw data into actionable intelligence with advanced analytics, visualization, and business intelligence dashboards.</p>
+                    <a href="./pages/portfolio.html?filter=analytics">Learn More →</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">⚙️</div>
+                    <h3>Automation Solutions</h3>
+                    <p>Streamline operations with intelligent automation that reduces manual effort, improves accuracy, and accelerates workflows.</p>
+                    <a href="./pages/portfolio.html?filter=automation">Learn More →</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">💬</div>
+                    <h3>NLP & Chatbots</h3>
+                    <p>Deploy conversational AI and natural language processing solutions that enhance customer engagement and support.</p>
+                    <a href="./pages/portfolio.html?filter=nlp">Learn More →</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">👁️</div>
+                    <h3>Computer Vision</h3>
+                    <p>Leverage visual intelligence for quality control, object detection, image recognition, and advanced visual analytics.</p>
+                    <a href="./pages/portfolio.html?filter=vision">Learn More →</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🔬</div>
+                    <h3>AI Consulting</h3>
+                    <p>Expert guidance on AI strategy, implementation roadmaps, and technology selection tailored to your business goals.</p>
+                    <a href="./pages/portfolio.html?filter=consulting">Learn More →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Work</h2>
+                <p>We've transformed operations for 40+ companies. Here's a glimpse of our 150+ AI projects.</p>
+            </div>
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="ai-ml">AI/ML</button>
+                <button class="filter-btn" data-filter="analytics">Analytics</button>
+                <button class="filter-btn" data-filter="automation">Automation</button>
+                <button class="filter-btn" data-filter="nlp">NLP</button>
+                <button class="filter-btn" data-filter="vision">Vision</button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="ai-ml">
+                    <div class="portfolio-image">
+                        <div class="placeholder-image">ML Model Dashboard</div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Predictive Analytics Engine</h3>
+                        <p>A machine learning platform that forecasts market trends and customer behavior, helping a fintech startup increase revenue by 45%. Built with TensorFlow and deployed on cloud infrastructure.</p>
+                        <div class="portfolio-tags">
+                            <span>AI/ML</span>
+                            <span>Python</span>
+                            <span>Fintech</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="automation">
+                    <div class="portfolio-image">
+                        <div class="placeholder-image">Workflow Automation</div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Process Automation Suite</h3>
+                        <p>Intelligent automation system that reduced manual data entry by 80% for an e-commerce platform. Integrated with existing systems to streamline order processing and inventory management.</p>
+                        <div class="portfolio-tags">
+                            <span>Automation</span>
+                            <span>RPA</span>
+                            <span>E-commerce</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="analytics">
+                    <div class="portfolio-image">
+                        <div class="placeholder-image">BI Dashboard</div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Enterprise BI Platform</h3>
+                        <p>Comprehensive business intelligence dashboard providing real-time insights into KPIs, sales performance, and customer metrics. Powered by modern data warehousing and visualization tools.</p>
+                        <div class="portfolio-tags">
+                            <span>Analytics</span>
+                            <span>BI Tools</span>
+                            <span>Enterprise</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="nlp">
+                    <div class="portfolio-image">
+                        <div class="placeholder-image">Chatbot Interface</div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Smart Customer Support Bot</h3>
+                        <p>NLP-powered chatbot that handles 70% of customer inquiries automatically. Integrated with knowledge base and CRM to provide contextual, intelligent responses 24/7.</p>
+                        <div class="portfolio-tags">
+                            <span>NLP</span>
+                            <span>Chatbot</span>
+                            <span>Customer Support</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="vision">
+                    <div class="portfolio-image">
+                        <div class="placeholder-image">Computer Vision System</div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Quality Control Vision System</h3>
+                        <p>Computer vision solution that inspects manufactured products with 99.2% accuracy, replacing manual quality checks. Reduces defects and improves production efficiency.</p>
+                        <div class="portfolio-tags">
+                            <span>Vision</span>
+                            <span>Manufacturing</span>
+                            <span>Computer Vision</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="ai-ml">
+                    <div class="portfolio-image">
+                        <div class="placeholder-image">Recommendation Engine</div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Personalization Engine</h3>
+                        <p>ML-powered recommendation system that increased user engagement by 60% for a SaaS platform. Uses collaborative filtering and neural networks for intelligent content suggestions.</p>
+                        <div class="portfolio-tags">
+                            <span>AI/ML</span>
+                            <span>SaaS</span>
+                            <span>Recommendations</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="view-all">
+                <a href="./pages/portfolio.html" class="btn btn-primary">See All Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solutions Section -->
+    <section class="solutions">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Solutions</h2>
+                <p>Ready-to-deploy platforms and frameworks for common AI challenges.</p>
+            </div>
+            <div class="solutions-grid">
+                <div class="solution-card">
+                    <span class="status available">AVAILABLE</span>
+                    <h3>AI Model Hub</h3>
+                    <p>A comprehensive library of pre-trained models and algorithms ready for integration into your applications. Save months of development time.</p>
+                    <a href="./pages/solutions.html?id=model-hub">Learn More →</a>
+                </div>
+                <div class="solution-card">
+                    <span class="status upcoming">UPCOMING</span>
+                    <h3>MLOps Platform</h3>
+                    <p>End-to-end platform for model training, deployment, monitoring, and governance. Streamline your machine learning workflows.</p>
+                    <a href="./pages/solutions.html?id=mlops">Learn More →</a>
+                </div>
+                <div class="solution-card">
+                    <span class="status available">AVAILABLE</span>
+                    <h3>Data Pipeline Framework</h3>
+                    <p>Robust, scalable data pipeline architecture for processing and preparing data at enterprise scale with minimal configuration.</p>
+                    <a href="./pages/solutions.html?id=pipeline">Learn More →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Packages Section -->
+    <section class="packages">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Packages</h2>
+                <p>Transparent pricing for our most popular services.</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3>Starter</h3>
+                    <p class="subtitle">For emerging AI needs.</p>
+                    <div class="price">
+                        <span class="amount">$299</span>
+                    </div>
+                    <ul class="features">
+                        <li>✓ AI Consulting Session</li>
+                        <li>✓ Small ML Model Development</li>
+                        <li>✓ Basic Data Analysis</li>
+                        <li>✓ API Integration</li>
+                        <li>✓ 1 Month Support</li>
+                        <li>✓ Documentation</li>
+                    </ul>
+                    <a href="./pages/contact.html" class="btn btn-outline">Contact Us</a>
+                </div>
+                <div class="pricing-card popular">
+                    <span class="badge">POPULAR</span>
+                    <h3>Pro</h3>
+                    <p class="subtitle">For growing businesses.</p>
+                    <div class="price">
+                        <span class="amount">$799</span>
+                        <span class="period">- $1,999</span>
+                    </div>
+                    <ul class="features">
+                        <li>✓ Custom ML Model Development</li>
+                        <li>✓ Advanced Analytics Dashboard</li>
+                        <li>✓ Automation Implementation</li>
+                        <li>✓ 3 Months Support</li>
+                        <li>✓ Model Training & Optimization</li>
+                        <li>✓ Cloud Deployment</li>
+                    </ul>
+                    <a href="./pages/contact.html" class="btn btn-primary">Contact Us</a>
+                </div>
+                <div class="pricing-card">
+                    <h3>Enterprise</h3>
+                    <p class="subtitle">For established organizations.</p>
+                    <div class="price">
+                        <span class="amount">Custom</span>
+                    </div>
+                    <ul class="features">
+                        <li>✓ Full AI System Development</li>
+                        <li>✓ Complete MLOps Pipeline</li>
+                        <li>✓ Ongoing Optimization</li>
+                        <li>✓ Dedicated Team Support</li>
+                        <li>✓ Advanced Security</li>
+                        <li>✓ SLA Guarantee</li>
+                    </ul>
+                    <a href="./pages/contact.html" class="btn btn-outline">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="team">
+        <div class="container">
+            <div class="section-header">
+                <h2>Meet the Team</h2>
+                <p>Expert minds driving innovation in AI and intelligent solutions.</p>
+            </div>
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="member-avatar">👨‍💼</div>
+                    <h3>Dr. Alexander Sterling</h3>
+                    <p class="role">Co-founder & Chief AI Officer</p>
+                    <p class="bio">PhD in Machine Learning with 15+ years in AI research and enterprise solutions.</p>
+                </div>
+                <div class="team-member">
+                    <div class="member-avatar">👩‍💻</div>
+                    <h3>Sarah Johnson</h3>
+                    <p class="role">ML Engineering Lead</p>
+                    <p class="bio">Specializes in deep learning, computer vision, and production ML systems at scale.</p>
+                </div>
+                <div class="team-member">
+                    <div class="member-avatar">👨‍🏫</div>
+                    <h3>Marcus Chen</h3>
+                    <p class="role">AI Solutions Architect</p>
+                    <p class="bio">Expert in designing and implementing enterprise AI solutions with proven track record.</p>
+                </div>
+                <div class="team-member">
+                    <div class="member-avatar">👩‍⚕️</div>
+                    <h3>Elena Rodriguez</h3>
+                    <p class="role">Data Science Manager</p>
+                    <p class="bio">Leads data strategy and analytics initiatives across multiple industry verticals.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>What's Your AI Challenge?</h2>
+                <p>Tell us about your business goals, and we'll craft an AI solution that drives real results.</p>
+                <div class="cta-form-simple">
+                    <input type="text" placeholder="Ask us anything..." class="cta-input">
+                    <button class="btn btn-primary">Send Message</button>
+                </div>
+                <p class="or-text">or <a href="./pages/contact.html">contact us directly</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Rivendell AI</h4>
+                    <p>Intelligent solutions for modern businesses. Transforming data into competitive advantage.</p>
+                    <div class="social-links">
+                        <a href="#" title="LinkedIn">in</a>
+                        <a href="#" title="Twitter">𝕏</a>
+                        <a href="#" title="GitHub">⚙️</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">AI & ML</a></li>
+                        <li><a href="#services">Analytics</a></li>
+                        <li><a href="#services">Automation</a></li>
+                        <li><a href="#services">NLP</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="./pages/portfolio.html">Portfolio</a></li>
+                        <li><a href="./pages/solutions.html">Solutions</a></li>
+                        <li><a href="./pages/packages.html">Packages</a></li>
+                        <li><a href="./pages/contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                        <li><a href="#">Disclaimer</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Rivendell AI. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>

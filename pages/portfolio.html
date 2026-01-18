@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Rivendell AI</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <a href="../index.html">
+                        <span class="logo-icon">⚡</span>
+                        <span class="logo-text">Rivendell AI</span>
+                    </a>
+                </div>
+                <div class="nav-menu">
+                    <ul class="nav-links">
+                        <li><a href="../index.html#services">Services</a></li>
+                        <li><a href="./portfolio.html">Portfolio</a></li>
+                        <li><a href="./solutions.html">Solutions</a></li>
+                        <li><a href="./packages.html">Packages</a></li>
+                        <li><a href="./contact.html" class="cta-btn">Get Started</a></li>
+                    </ul>
+                </div>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Portfolio Header -->
+    <section class="portfolio-header" style="padding: 4rem 0; background: linear-gradient(135deg, #7C3AED, #EC4899); color: white; text-align: center;">
+        <div class="container">
+            <h1 style="font-size: 3rem; margin-bottom: 1rem;">Our Portfolio</h1>
+            <p style="font-size: 1.1rem; opacity: 0.95;">Explore 150+ AI projects across various industries and use cases.</p>
+        </div>
+    </section>
+
+    <!-- Portfolio Grid -->
+    <section class="portfolio">
+        <div class="container">
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="ai-ml">AI/ML</button>
+                <button class="filter-btn" data-filter="analytics">Analytics</button>
+                <button class="filter-btn" data-filter="automation">Automation</button>
+                <button class="filter-btn" data-filter="nlp">NLP</button>
+                <button class="filter-btn" data-filter="vision">Vision</button>
+            </div>
+
+            <div class="portfolio-grid">
+                <!-- AI/ML Projects -->
+                <div class="portfolio-item" data-category="ai-ml">
+                    <div class="portfolio-image">
+                        <div class="placeholder-image">ML Model Dashboard</div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Predictive Analytics Engine</h3>
+                        <p>A machine learning platform that forecasts market trends and customer behavior, helping a fintech startup increase revenue by 45%.</p>
+                        <div class="portfolio-tags">
+                            <span>AI/ML</span>
+                            <span>Python</span>
+                            <span>Fintech</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Automation Projects -->
+                <div class="portfolio-item" data-category="automation">
+                    <div class="portfolio-image">
+                        <div class="placeholder-image">Workflow Automation</div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Process Automation Suite</h3>
+                        <p>Intelligent automation system that reduced manual data entry by 80% for an e-commerce platform.</p>
+                        <div class="portfolio-tags">
+                            <span>Automation</span>
+                            <span>RPA</span>
+                            <span>E-commerce</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Analytics Projects -->
+                <div class="portfolio-item" data-category="analytics">
+                    <div class="portfolio-image">
+                        <div class="placeholder-image">BI Dashboard</div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Enterprise BI Platform</h3>
+                        <p>Comprehensive business intelligence dashboard providing real-time insights into KPIs, sales performance, and customer metrics.</p>
+                        <div class="portfolio-tags">
+                            <span>Analytics</span>
+                            <span>BI Tools</span>
+                            <span>Enterprise</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- NLP Projects -->
+                <div class="portfolio-item" data-category="nlp">
+                    <div class="portfolio-image">
+                        <div class="placeholder-image">Chatbot Interface</div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Smart Customer Support Bot</h3>
+                        <p>NLP-powered chatbot that handles 70% of customer inquiries automatically, integrated with knowledge base and CRM.</p>
+                        <div class="portfolio-tags">
+                            <span>NLP</span>
+                            <span>Chatbot</span>
+                            <span>Customer Support</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Vision Projects -->
+                <div class="portfolio-item" data-category="vision">
+                    <div class="portfolio-image">
+                        <div class="placeholder-image">Computer Vision System</div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Quality Control Vision System</h3>
+                        <p>Computer vision solution that inspects manufactured products with 99.2% accuracy, replacing manual quality checks.</p>
+                        <div class="portfolio-tags">
+                            <span>Vision</span>
+                            <span>Manufacturing</span>
+                            <span>Computer Vision</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Recommendations -->
+                <div class="portfolio-item" data-category="ai-ml">
+                    <div class="portfolio-image">
+                        <div class="placeholder-image">Recommendation Engine</div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Personalization Engine</h3>
+                        <p>ML-powered recommendation system that increased user engagement by 60% for a SaaS platform.</p>
+                        <div class="portfolio-tags">
+                            <span>AI/ML</span>
+                            <span>SaaS</span>
+                            <span>Recommendations</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Rivendell AI</h4>
+                    <p>Intelligent solutions for modern businesses. Transforming data into competitive advantage.</p>
+                    <div class="social-links">
+                        <a href="#" title="LinkedIn">in</a>
+                        <a href="#" title="Twitter">𝕏</a>
+                        <a href="#" title="GitHub">⚙️</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="../index.html#services">AI & ML</a></li>
+                        <li><a href="../index.html#services">Analytics</a></li>
+                        <li><a href="../index.html#services">Automation</a></li>
+                        <li><a href="../index.html#services">NLP</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="./portfolio.html">Portfolio</a></li>
+                        <li><a href="./solutions.html">Solutions</a></li>
+                        <li><a href="./packages.html">Packages</a></li>
+                        <li><a href="./contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                        <li><a href="#">Disclaimer</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Rivendell AI. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,440 @@
+/* Responsive Design */
+
+/* Tablets and small desktops (1024px and below) */
+@media (max-width: 1024px) {
+    .hero .container {
+        grid-template-columns: 1fr;
+    }
+
+    .hero-image {
+        min-height: 300px;
+    }
+
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+
+    .section-header h2 {
+        font-size: 2rem;
+    }
+
+    .pricing-card.popular {
+        transform: scale(1.02);
+    }
+}
+
+/* Mobile devices (768px and below) */
+@media (max-width: 768px) {
+    /* Navigation */
+    .hamburger {
+        display: flex;
+    }
+
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 60px;
+        flex-direction: column;
+        background-color: white;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+        padding: 2rem 0;
+        border-top: 1px solid var(--border);
+        box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .nav-menu ul {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .nav-links a::after {
+        display: none;
+    }
+
+    /* Hero */
+    .hero {
+        padding: 3rem 0;
+    }
+
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+
+    .hero-content p {
+        font-size: 1rem;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+    }
+
+    .btn {
+        width: 100%;
+        text-align: center;
+    }
+
+    .hero-image {
+        min-height: 250px;
+    }
+
+    /* Company logos */
+    .company-logos {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+
+    .logo-item {
+        font-size: 0.85rem;
+        padding: 0.8rem;
+    }
+
+    /* Services */
+    .services {
+        padding: 3rem 0;
+    }
+
+    .services-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .section-header h2 {
+        font-size: 1.75rem;
+    }
+
+    .section-header p {
+        font-size: 1rem;
+    }
+
+    /* Portfolio */
+    .portfolio {
+        padding: 3rem 0;
+    }
+
+    .portfolio-filters {
+        gap: 0.5rem;
+    }
+
+    .filter-btn {
+        padding: 0.5rem 1rem;
+        font-size: 0.9rem;
+    }
+
+    .portfolio-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    /* Solutions */
+    .solutions {
+        padding: 3rem 0;
+    }
+
+    .solutions-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* Pricing */
+    .packages {
+        padding: 3rem 0;
+    }
+
+    .pricing-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .pricing-card {
+        padding: 2rem;
+    }
+
+    .pricing-card.popular {
+        transform: scale(1);
+    }
+
+    .amount {
+        font-size: 2rem;
+    }
+
+    /* Team */
+    .team {
+        padding: 3rem 0;
+    }
+
+    .team-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    /* CTA Section */
+    .cta-section {
+        padding: 2.5rem 0;
+    }
+
+    .cta-content h2 {
+        font-size: 1.75rem;
+    }
+
+    .cta-content p {
+        font-size: 1rem;
+    }
+
+    .cta-form-simple {
+        flex-direction: column;
+    }
+
+    .cta-input {
+        min-width: unset;
+    }
+
+    /* Footer */
+    .footer-content {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .footer {
+        padding: 2rem 0 1rem;
+    }
+}
+
+/* Small mobile devices (480px and below) */
+@media (max-width: 480px) {
+    /* Navigation */
+    .logo a {
+        font-size: 1.2rem;
+    }
+
+    .logo-icon {
+        font-size: 1.5rem;
+    }
+
+    /* Hero */
+    .hero {
+        padding: 2rem 0;
+    }
+
+    .hero-content h1 {
+        font-size: 1.5rem;
+    }
+
+    .hero-content p {
+        font-size: 0.95rem;
+    }
+
+    .trust-section {
+        padding: 2rem 0;
+        margin-top: 2rem;
+    }
+
+    /* Services */
+    .service-icon {
+        font-size: 2.5rem;
+    }
+
+    .service-card h3 {
+        font-size: 1.1rem;
+    }
+
+    .service-card {
+        padding: 1.5rem;
+    }
+
+    /* Portfolio */
+    .portfolio-image {
+        height: 150px;
+    }
+
+    .portfolio-content {
+        padding: 1rem;
+    }
+
+    .portfolio-content h3 {
+        font-size: 1rem;
+    }
+
+    /* Pricing */
+    .pricing-card {
+        padding: 1.5rem;
+    }
+
+    .pricing-card h3 {
+        font-size: 1.2rem;
+    }
+
+    .amount {
+        font-size: 1.75rem;
+    }
+
+    .features li {
+        padding: 0.6rem 0;
+        font-size: 0.9rem;
+    }
+
+    /* Team */
+    .member-avatar {
+        font-size: 3rem;
+    }
+
+    .team-member h3 {
+        font-size: 1rem;
+    }
+
+    /* CTA Section */
+    .cta-content h2 {
+        font-size: 1.5rem;
+    }
+
+    /* Footer */
+    .footer-section h4 {
+        font-size: 1rem;
+    }
+
+    .footer-section p {
+        font-size: 0.9rem;
+    }
+
+    .footer-section a {
+        font-size: 0.9rem;
+    }
+
+    .social-links a {
+        width: 35px;
+        height: 35px;
+        font-size: 0.9rem;
+    }
+
+    .container {
+        padding: 0 15px;
+    }
+}
+
+/* Extra small devices (360px and below) */
+@media (max-width: 360px) {
+    .hero-content h1 {
+        font-size: 1.25rem;
+    }
+
+    .section-header h2 {
+        font-size: 1.5rem;
+    }
+
+    .nav-links a {
+        font-size: 0.9rem;
+    }
+
+    .company-logos {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Landscape mode adjustments */
+@media (max-height: 600px) and (orientation: landscape) {
+    .hero {
+        padding: 2rem 0;
+    }
+
+    .hero-content h1 {
+        font-size: 1.75rem;
+    }
+
+    .hero-image {
+        min-height: 200px;
+    }
+}
+
+/* Print styles */
+@media print {
+    .navbar,
+    .cta-section,
+    .footer,
+    .hamburger {
+        display: none;
+    }
+
+    body {
+        background: white;
+    }
+
+    .hero,
+    .services,
+    .portfolio,
+    .packages,
+    .team {
+        page-break-inside: avoid;
+    }
+}
+
+/* High DPI screens (Retina displays) */
+@media (-webkit-min-device-pixel-ratio: 2),
+       (min-resolution: 192dpi) {
+    body {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+}
+
+/* Dark mode preference (future support) */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --primary: #A78BFA;
+        --secondary: #F472B6;
+        --dark: #F8FAFC;
+        --light: #1E293B;
+        --text: #F1F5F9;
+        --text-light: #CBD5E1;
+        --border: #475569;
+    }
+
+    body {
+        background: #0F172A;
+    }
+
+    .navbar {
+        background: #1E293B;
+        border-bottom-color: var(--border);
+    }
+
+    .hero {
+        background: linear-gradient(135deg, #1E293B 0%, #0F172A 100%);
+    }
+
+    .services,
+    .solutions,
+    .team {
+        background: #0F172A;
+    }
+
+    .portfolio,
+    .packages {
+        background: #1E293B;
+    }
+
+    .service-card,
+    .solution-card,
+    .team-member,
+    .portfolio-item {
+        background: #1E293B;
+    }
+
+    .logo-item {
+        background: #0F172A;
+    }
+}
+
+/* Accessibility improvements */
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
