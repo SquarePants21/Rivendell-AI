@@ -63,8 +63,10 @@ a {
     color: var(--dark);
 }
 
-.logo-icon {
-    font-size: 2rem;
+.logo-image {
+    height: 50px;
+    width: auto;
+    object-fit: contain;
 }
 
 .nav-menu ul {
